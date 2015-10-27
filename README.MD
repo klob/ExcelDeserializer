@@ -28,7 +28,7 @@ Excel表格数据
 
 
 
-[java]
+
  
     public class TestModel {
     public String name;
@@ -44,11 +44,10 @@ Excel表格数据
                 "}\n ";
     }
 }
-[/java]
+
 
 &nbsp;
 
-[java]
 
 
     public class Test {
@@ -58,16 +57,23 @@ Excel表格数据
         List<TestModel> models=controller.read(file, TestModel.class);
     }
 }
-[/java]
+
 
 <span style="font-size: 18pt;">结果</span>
 
 [TestModel{name='黄鹏', score='8', note=''}
+
 , TestModel{name='张辉', score='7', note=''}
+
 , TestModel{name='汪旭', score='9', note='优秀'}
+
 , TestModel{name='黄祚', score='3', note=''}
+
 , TestModel{name='李阳', score='6', note=''}
+
 , TestModel{name='文凡', score='7', note=''}
+
 , TestModel{name='赵伟', score='3', note=''}
+
 , TestModel{name='梁琳', score='3', note=''}
 ]
